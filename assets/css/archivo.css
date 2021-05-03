@@ -584,14 +584,11 @@ article {
 
 .productos-derecha{
     width:auto;
-    height:50vh;
     margin:230px 0;
 }
 
 .producto-texto{
     font-size:18pt;
-    justify-content: center;
-    text-align:center;
     font-family:'Bebas Neue', cursive;
     text-transform: uppercase;
 }
