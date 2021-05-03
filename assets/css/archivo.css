@@ -34,13 +34,18 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-header .contenedor-navbar{
+#navbar-background{
     display:flex;
     justify-content: space-between;
     align-items:center;
     background: white;
 }
 
+header .contenedor-navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
 
 .contenedor-navbar {
     width:100%;
