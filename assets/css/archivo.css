@@ -37,21 +37,34 @@ body{
 header .contenedor-navbar{
     display:flex;
     justify-content: space-between;
-    align-items:center; 
+    align-items:center;
+    background: white;
 }
+
+
+.contenedor-navbar {
+    width:100%;
+    margin:0;
+}
+
 
 header ul{
     display:flex;
+    
 }
 
 li {
     list-style:none;
+    
 
 }
 
 li a { 
     color:black;
     text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    
 }
 
 li a:hover{
@@ -66,12 +79,7 @@ header p{
     font-weight: 700;
     text-transform: uppercase;
     font-size:20px;
-}
-
-.contenedor-navbar {
-    max-width:1280px;
-    width:90%;
-    margin:auto;
+    padding: 0 80px;
 }
 
 
