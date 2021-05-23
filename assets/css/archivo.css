@@ -402,17 +402,18 @@ footer svg{ /*Aunque las etiquetas son i, Chrome lo toma como svg*/
     align-items: center;
     position:relative;
     margin-bottom:50px;
+    font-family: 'Bitter', serif;
 }
 
 
 .recetas__titulo{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Bebas Neue', cursive;
     text-transform: uppercase;
     font-weight: 700;
     color:black;
     text-align:center;
     margin:auto;
-    font-size:20pt;
+    font-size:30pt;
 }
 
 .recetas--mayonesa{
@@ -439,6 +440,7 @@ footer svg{ /*Aunque las etiquetas son i, Chrome lo toma como svg*/
     background:#789784;
     transition: .3s ease all;
 }
+
 .boton:hover{
     background:#bccca4;
     text-decoration: none;
