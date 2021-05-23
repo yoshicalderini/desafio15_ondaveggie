@@ -427,7 +427,7 @@ footer svg{ /*Aunque las etiquetas son i, Chrome lo toma como svg*/
 
 .boton{
     border:none;
-    min-width: 180px;
+    min-width: 100px;
     height:50px;
     padding: 0 30px;
     color:#FFF;
@@ -439,6 +439,11 @@ footer svg{ /*Aunque las etiquetas son i, Chrome lo toma como svg*/
     align-items: center;
     background:#789784;
     transition: .3s ease all;
+    font-size:15pt;
+}
+
+.boton__texto{
+    padding:10px;
 }
 
 .boton:hover{
@@ -463,13 +468,14 @@ footer svg{ /*Aunque las etiquetas son i, Chrome lo toma como svg*/
 .frase{
     text-align:center;
     margin:70px 0;
+    font-family: 'Bebas Neue', cursive;
+
 }
 
 .frase__texto{
     margin-bottom:20px;
-    font-size:30px;
+    font-size:40px;
     font-weight: 600;
-    font-style:italic;
 }
 
 .boton--compra{
