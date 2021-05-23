@@ -297,6 +297,12 @@ footer svg{ /*Aunque las etiquetas son i, Chrome lo toma como svg*/
 
 /* ------------------------------------------- MENU SEMANAL------------------------------------------------------------------------------------------- */
 
+.seccion1-menusemanal{
+    text-align:center;
+    margin: 50px 0;
+    font-family: 'Bitter', serif;
+    font-size:25pt;
+}
 
 .nosotros{
     text-align:center;
