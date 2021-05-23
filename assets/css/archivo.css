@@ -549,7 +549,7 @@ footer svg{ /*Aunque las etiquetas son i, Chrome lo toma como svg*/
     transform:scale(1.05);
 }
 
-.tarjeta-:after{
+.tarjeta-productos:after{
     content:"";
     background-color:rgba(179,229,252,.1);
     width:100%;
