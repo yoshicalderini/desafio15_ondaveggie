@@ -297,124 +297,54 @@ footer svg{ /*Aunque las etiquetas son i, Chrome lo toma como svg*/
 
 /* ------------------------------------------- NOSOTROS------------------------------------------------------------------------------------------- */
 
+
 .nosotros{
     text-align:center;
-    margin: 50px 0;
     font-family: 'Bitter', serif;
     font-size:25pt;
 }
 
+.contenedor-menusem{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap:30px;
 
-.contenedor-tarjetas{
-    display:flex; /*me queda uno al lado del otro*/
-    justify-content: center; /*me quedan las tres centradas*/
-    margin: 50px 0;
-}
-
-.tarjeta img{
-    width:100%;
-    height:400px;
-}
-
-.tarjeta{
-    width:25%;
-    margin: 0 30px;
-    background:white;
-    text-align:justify;
-    font-family: 'Bitter', serif;
-    font-size:15px;
-}
-
-.tarjeta-titulo, .tarjeta-parrafo{
-    padding:5px 30px;
-}
-
-.tarjeta-boton{
-    text-decoration: none;
-    color:#789784;
-    padding-left:30px;
-}
-
-.tarjeta-boton-parrafo{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-decoration: none;
-    line-height: 5em;
-}
-
-.nosotros-titulo{
-    text-align:center;
-    margin: 30px;
-    font-family: 'Bitter', serif;
-    font-size:15pt;
-    line-height: 1.5em;
-}
-
-
-
-article {
-    padding: 20px;
-    transition: padding 1s;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+    width:90%;
+    max-width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:3em;
+    margin-bottom:3em;
 
 }
 
-
-.imgElla{
-    width:20%;
+.tarjeta-img{
+    max-width:100%;
+    display:block;
 }
 
-.imgElla2 {
-    position: relative;
-    top: -100%;
-    opacity: 0;
-    width:20%;
-    animation: aparecer2 4s ease-in infinite;
+.tarjeta-menu{
+    background-color:pink;
+    cursor:pointer;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.985);
+}
+
+.tarjeta-texto{
+    padding:1em;
 }
 
 
-
-@keyframes aparecer2 {
-    0% {
-        /* 0s */
-        opacity: 0;
+@media screen and (min-width:590px) {
+    .contenedor-menusem{
+        grid-template-columns: repeat(2,1fr);
     }
-    18% {
-        /* 1s */
-        opacity: 1;
-    }
-    33% {
-        /* 2s */
-        opacity: 1;
-    }
-    66% {
-
-        /* 4s */
-        opacity: 0;
-    }
-    100% {
-
-        /* 6s */
-        opacity: 0;
-    }
-
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (min-width:960px) {
+    .contenedor-menusem{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
 
 
 /* ------------------------------------------- RECETAS------------------------------------------------------------------------------------------- */
