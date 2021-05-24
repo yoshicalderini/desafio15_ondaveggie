@@ -578,6 +578,11 @@ footer svg{ /*Aunque las etiquetas son i, Chrome lo toma como svg*/
 
 /* ------------------------------------------- CONTACTO------------------------------------------------------------------------------------------ */
 
+
+.contacto{
+    background-color:#f5f5f1;
+}
+
 .titulosViewsContacto{
     font-family: 'Bebas Neue', cursive;
     color:#789784;
