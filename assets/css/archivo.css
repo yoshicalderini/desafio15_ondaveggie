@@ -93,11 +93,6 @@ a{
 }
 
 
-@media screen and (max-width: 600px) {.topnav a {
-    float: none;
-    width: 100%;
-  }
-}
 
 /* -------------------------------------- INDEX - SECCIÓN I */
 
@@ -301,6 +296,7 @@ footer svg{ /*Aunque las etiquetas son i, Chrome lo toma como svg*/
     text-align:center;
     margin: 30px 0;
     font-family: 'Bitter', serif;
+    font-weight: bold;
     font-size:15pt;
 
 }
@@ -403,6 +399,7 @@ footer svg{ /*Aunque las etiquetas son i, Chrome lo toma como svg*/
     position:relative;
     margin-bottom:50px;
     font-family: 'Bitter', serif;
+    font-weight: bold;
 }
 
 
@@ -504,31 +501,6 @@ footer svg{ /*Aunque las etiquetas son i, Chrome lo toma como svg*/
 }
 
 
-
-/* ------------------------------------------- CONTACTO ------------------------------------------------------------------------------------------- */
-
-#contenedorForm{
-    background-color:#c0d487;
-    margin-left:500px;
-    margin-top:80px;
-    margin-bottom:80px;
-    padding-top:2px;
-    padding-bottom:15px;
-    height:45vh;
-    width:35%;
-    border-style: dotted;
-    text-align: justify;
-}
-
-.form{
-    color:black;
-    margin-top:20px;
-    margin-left:70px;
-    color:#356726;
-}
-
-
-
 /* ------------------------------------------- PRODUCTOS ------------------------------------------------------------------------------------------- */
 
 
@@ -600,3 +572,55 @@ footer svg{ /*Aunque las etiquetas son i, Chrome lo toma como svg*/
         grid-template-columns: repeat(2,1fr);
     }
 }
+
+
+/* ------------------------------------------- CONTACTO------------------------------------------------------------------------------------------ */
+
+.titulosViewsContacto{
+    font-family: 'Bebas Neue', cursive;
+    color:#789784;
+    font-size:50pt;
+    text-align:center;
+    margin:auto; /*Me centra automaticamente el texto*/
+}
+
+.container{
+    display:flex;
+    align-items: center;
+}
+
+
+.btn {
+    margin-right: 150px;
+}
+
+
+header .contenedor-navbar-contacto {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    width:100%;
+    margin-top:20px;
+}
+
+
+header .contenedor-navbar-contacto li a{
+    color:black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family:'Open Sans', sans-serif;
+    font-weight: bold;
+
+}
+
+header .contenedor-navbar-contacto li a:hover{
+    text-decoration: underline;
+}
+
+
+.gif-contacto{
+    width: 80%;
+    height: auto;
+}
+
